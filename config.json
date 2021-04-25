@@ -1,0 +1,24 @@
+{
+  "streamKey": "liveaccess987654321qwertyuiop123456789",
+  "videosPath": "./public/videos/",
+  "hls": {
+    "bufsize": "1835k",
+    "input": "rtmp://192.168.0.8:1935/piuraplustv/",
+    "maxrate": "400k",
+    "numberOfTries": 4,
+    "delayOfTries": 2000,
+    "output": "output.m3u8"
+  },
+  "maxBuffer": 5120,
+  "passwords": [
+    {
+      "name": "AdminControl",
+      "password": "el rey leon 2020"
+    },
+    {
+      "name": "envivo",
+      "password": ""
+    }
+    
+  ]
+}
